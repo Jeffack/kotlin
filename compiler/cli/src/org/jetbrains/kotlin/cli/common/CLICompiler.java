@@ -222,7 +222,7 @@ public abstract class CLICompiler<A extends CommonCompilerArguments> {
                     }
                 }
                 finally {
-                    Disposer.dispose(rootDisposable);
+                    //Disposer.dispose(rootDisposable);
                 }
             }
             return exitCode;
